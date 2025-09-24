@@ -1,3 +1,6 @@
+import express from 'express'
+
+
 const express = require("express");
 const {saveSentEmail,getEmails,moveToBin,starredEmail,deleteEmail}=require("../controller/email-controller.js")
 
