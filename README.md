@@ -49,6 +49,23 @@ npm start
 cd server
 npm start
 ```
+### Testing installations
+After installing dependencies and starting the server and it is listening
+'''bash
+cd backend
+npm run test 
+'''
+This command will run vitest 
+
+### installing external packages
+
+npm install bcrypt # as security tool
+npm install bcryptjs # imported external file
+
+npm install dotenv  # for api connection
+
+
+
 
 ## Screenshots
 
