@@ -51,19 +51,19 @@ npm start
 ```
 ### Testing installations
 After installing dependencies and starting the server and it is listening:
-'''bash
+```bash
 cd backend
 npm run test 
-'''
+```
 This command will run vitest .
 
 ### installing external packages
-
+``` bash
 npm install bcrypt # as security tool.
 npm install bcryptjs # imported external file.
 
-npm install dotenv  # for api connection.
-
+npm install dotenv  # loads files from ".env" file.
+```
 
 
 
